@@ -19,7 +19,7 @@ redirect_from:
 
 # 📖 Biography
 
-I'm currently a master student for Integrated Circuit Science and Technology in the School of Electronic and Computer Engineering, Peking University Shenzhen Graduate School, China, under the supervision of [Prof. Hailong Jiao](https://www.ece.pku.edu.cn/info/1045/2719.htm) at [VLSI-Lab](http://www.pku-vlsi.com/). I received the B.S. degree of Microelectronics Science and Technology in Hongyi Honor College, Wuhan University, China, in June 2025. My undergraduate advisor was [Prof. Chang Sheng](https://jszy.whu.edu.cn/changsheng/zh_CN/index.htm).
+I'm currently a master student for Integrated Circuit Science and Technology in the School of Electronic and Computer Engineering, Peking University Shenzhen Graduate School, China, under the supervision of [Prof. Hailong Jiao](https://www.ece.pku.edu.cn/info/1045/2719.htm) at [VLSI-Lab](http://www.pku-vlsi.com/). I received the B.S. degree of Microelectronics Science and Technology in Hongyi Honor College, Wuhan University, China, in June 2025. My undergraduate advisor was [Prof. Sheng Chang](https://jszy.whu.edu.cn/changsheng/zh_CN/index.htm).
 
 <span class='anchor' id='research-tracks'></span>
 
