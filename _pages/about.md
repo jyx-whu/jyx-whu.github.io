@@ -19,7 +19,9 @@ redirect_from:
 
 # 📖 Biography
 
-I'm currently a master student for Integrated Circuit Science and Technology in the School of Electronic and Computer Engineering, Peking University Shenzhen Graduate School, China, under the supervision of Professor Hailong Jiao. I received the B.S. degree of Microelectronics Science and Technology in Hongyi Honor College, Wuhan University, China, in June 2025.
+I'm currently a master student for Integrated Circuit Science and Technology in the School of Electronic and Computer Engineering, Peking University Shenzhen Graduate School, China, under the supervision of [Prof. Hailong Jiao](https://www.ece.pku.edu.cn/info/1045/2719.htm) at [VLSI-Lab](http://www.pku-vlsi.com/). I received the B.S. degree of Microelectronics Science and Technology in Hongyi Honor College, Wuhan University, China, in June 2025. My undergraduate advisor was [Prof. Chang Sheng](https://jszy.whu.edu.cn/changsheng/zh_CN/index.htm).
+
+<span class='anchor' id='research-tracks'></span>
 
 # 💡 Research Tracks
 
@@ -27,7 +29,7 @@ My current research interests focus on **Efficient AI Chip and System**.
 
 - **Accelerators for Energy Efficient Edge AI**
   - I am currently dedicated to develop edge accelerators for the foundation models of Embodied/Physical AI, with specific scenarios like autonomous driving, robotics, etc. For a typical foundation model, I focus on the following aspects:
-  - **Feature Extraction**: Various CNNs for classification, segmentation, and object detection (TCAD'24, TCAS-I'25, TC'25), also including 3D visual perception networks based on point cloud.
+  - **Feature Extraction**: CNNs for classification, segmentation, and object detection (TCAD'24, TCAS-I'25, TC'25), and 3D visual perception networks based on point cloud.
   - **Multi-Sensor Fusion**: BEV-based approaches for fusing multi-view visual features in the autonomous driving scenario.
   - **Scene Representation**: Emerging 3D/4D representation forms like Gaussian Splatting.
   - **Reasoning and Action-Making**: The co-processing of high-level reasoning and low-level action-making via emerging model architectures.
@@ -38,6 +40,8 @@ My current research interests focus on **Efficient AI Chip and System**.
 - **Fundamental Optimization Theories for AI Chip and System**
   - I believe that the summarization of fundamental theories is the most important factor driving research progress. I am trying to make some contributions on review papers about fundamental theories.
 
+<span class='anchor' id='news'></span>
+
 # 🔥 News
 
 - *2025.06*: &nbsp; One co-authored paper about fully pipelined FPGA accelerator for semantic segmentation CNN is accepted by **IEEE TC**. Congratulations to Jiahui!
@@ -45,6 +49,8 @@ My current research interests focus on **Efficient AI Chip and System**.
 - *2024.09*: &nbsp; One co-first-authored paper about fully pipelined FPGA accelerator for encoder-decoder segmentation CNN is accepted by **IEEE TCAD**. Congratulations to Zhan Li!
 - *2024.07*: &nbsp; Our fully pipelined streaming architecture for sparse Transformer acceleration wins **National First Prize** and **YMTC (长江存储) Corporate Award** in 2024 China Postgraduate IC Innovation Competition. Congratulations to Zhan Li, Qunkang and Zhihan!
 - *2023.12*: &nbsp; Our fully pipelined streaming architecture for CNN acceleration wins **National First Prize** and **Xilinx Corporate Award** in FPGA Innovation Design Track of 2023 National College Students' Embedded Chip and System Design Competition. Congratulations to Zhan Li, Zhihan and Xingyu!
+
+<span class='anchor' id='publications'></span>
 
 # 📝 Publications
 
@@ -83,11 +89,15 @@ Jiahui Huang\*, Zhan Li\*, **Yuxian Jiang**, Zhihan Zhang, Hao Wang, and Sheng C
 </div>
 </div>
 
+<span class='anchor' id='honors-and-awards'></span>
+
 # 🏆 Honors and Awards
 
 - *2025.06*: &nbsp; Full Tuition Credit Refund for Top 1% of 2025 Graduates at Wuhan University (武汉大学2025届前1%优秀毕业生返还全部学分费).
 - *2025.06*: &nbsp; Outstanding Graduate of Wuhan University.
 - *2025.06*: &nbsp; Outstanding Graduate of Hongyi Honor College, Wuhan University.
+
+<span class='anchor' id='research-taste'></span>
 
 # 🤔 Research Taste
 
@@ -97,6 +107,8 @@ Personally, I conduct my research with certain research taste. I also hope to ha
 - 🎯**Focus on fundamental problems that closely related to most algorithms or scenarios**: Directly selecting a novel or exotic algorithm and implementing a chip for it is an effective way to publish papers. However, I prefer to focus on some more universal problems. Research should focus on accelerating fundamental models or operators, rather than implementing additional processing steps that are less common but just easy to find ideas for.
 - ⚖️**Find a balance between industry needs and academic significance**: The value of a work should be demonstrated by combining real industry pain points and user needs with the research content, rather than broadly pursuing increasingly extreme so-called optimizations. At the same time, it is essential to distinguish between scientific and engineering problems. Academic research needs to be exploratory and groundbreaking, rather than being judged solely on whether it can be transformed directly into a product in the present moment, or being implemented by applying the thinking of product development.
 - ✍️**Emphasize the summary of fundamental theories**: Theories like the roofline model, abstraction hierarchy, and memory hierarchy are the source of new ideas. Research should not be approached in a fast-food style; instead, one should strive to truly understand the essence and limitations behind mainstream or non-mainstream approaches, thereby improving the quality of one's own ideas.
+
+<span class='anchor' id='projects'></span>
 
 # 🚀 Projects
 
@@ -121,12 +133,21 @@ This work proposed a 2×2 mm^2 TSMC 28nm accelerator for [HAC](https://arxiv.org
 2. Implementation of a gaussian preprocess unit. This unit supports complete functions for converting 3D gaussian properties (3D covariance matrix and spatial coordinate mainly) to 2D splatted gaussian properties (2D covariance matrix and pixel scale coordinate). The conversions involve linear transformations based on view-transformation matrix and projection matrix, quadratic-form-style covariance splatting based on Jacobi matrix, generation of the inverse matrix based on determinant, and other vector operations or scalar operations. The fixed point and micro-scaling INT (MXINT) style data formats are supported to maintain the accuracy.
 3. Implementation of a frustum culling unit. This unit introduces NeRF-style ray sampling method into Gaussian Splatting for redundancy-check-free voxel-wise frustum culling.
 
-## Fully Pipelined Streaming Architecture and Mapping Toolchain for Various CNN in FPGA --July 2023 to June 2025
+## Fully Pipelined Streaming Architecture and Mapping Toolchain for Various CNNs in FPGA --July 2023 to June 2025
 
-This work proposed a fully pipelined FPGA accelerator with an agile mapping framework for various CNN, including image classification, object detection, and semantic segmentation, leaded by Dr. Zhan Li.
+This work proposed a fully pipelined FPGA accelerator with an agile mapping framework for various CNNs, including image classification, object detection, and semantic segmentation, leaded by Dr. Zhan Li.
 
 **Main Contributions**:
 
 1. Implementation of our proposed on-chip fully unrolled parallel dataflow on ResNet18, SegNet-Basic, and U-Net.
 2. Assistance in the implementation of a network-architecture-aware hardware resource estimation model based on our proposed dataflow. The model can directly generated hyper-parameters for hardware design based on user-defined performance requirement, network architecture, and target platform.
 3. Implementation of a series of RTL code templates for agile synthesis of accelerators. The templates are fully parameterized, supporting arbitary common specifications of network layers (convolution kernel size, feature map size, etc.) and most types of operators in CNN, including vanilla/depth-wise/point-wise convolution, max/avg pooling, unpooling, deconvolution, and dilated convolution.
+
+<span class='anchor' id='personal-hobbies'></span>
+
+# ⭐️ Personal Hobbies
+
+- 🏓**table tennis**: I am now a key member and vice-captain of the PKUSZ table tennis team. I was formerly the captain of the WHU Hongyi Honor College table tennis team.
+- 🎹**piano**: I have been learning piano since I was a child. I became very interested in ACG piano during high school and have practiced many [Animenz](https://space.bilibili.com/6075139)'s arrangements, such as [Unravel](https://www.bilibili.com/video/BV1px411A7ir/), [Bios (10th Anniversary Edition)](https://www.bilibili.com/video/BV1JP4y1G7ze), and [Sincerely](https://www.bilibili.com/video/BV1CK411J7fX), etc. 
+- ☯️**Chinese Kungfu**: I studied Chen-style Tai Chi for many years during my primary and secondary school years. I have also maintained a close interest in various kickboxing and Muay Thai competitions, such as [K-1](https://www.k-1.world/), Glory, [ONE Championship](https://www.onefc.com/cn/), and WLF (Wu Lin Feng), etc.
+- 🧐**Religious Philosophy and Chinese Culture**: My early years were steeped in the recitation of many traditional Chinese classics, such as the Analects, the Great Learning, the Doctrine of the Mean, and the Book of Changes. I also have an ongoing inquiry of Vedanta philosophy from India, the integral framework and evergreen philosophy of Ken Wilber, and the teachings of Krishnamurti.
