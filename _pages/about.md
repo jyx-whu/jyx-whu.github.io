@@ -101,12 +101,43 @@ Jiahui Huang\*, Zhan Li\*, **Yuxian Jiang**, Zhihan Zhang, Hao Wang, and Sheng C
 
 # 🤔 Research Taste
 
-Personally, I conduct my research with certain research taste. I also hope to have more exchanges with like-minded scholars.
+Personally, I conduct my research with certain research tastes. I also hope to have more exchanges with like-minded scholars.
 
 - 📖**Make ideas fall on hardware-level new features when designing accelerators**: Currently,  software-hardware co-optimization is the mainstream approach for realizing AI accelerators. However, this does not mean that we only need to simply change the algorithm and provide a straightforward hardware implementation. Over-reliance on algorithm optimization is essentially escaping some hardware design difficulties by forcibly eliminating the problem itself. Methods for improving algorithm efficiency also should not be blindly transferred to hardware (otherwise it will easily cause additional overhead), but rather we should look for hardware-efficient ways to transfer them. I appreciate those works dealing with true problem in hardware and providing substantive new features hardware.
 - 🎯**Focus on fundamental problems that closely related to most algorithms or scenarios**: Directly selecting a novel or exotic algorithm and implementing a chip for it is an effective way to publish papers. However, I prefer to focus on some more universal problems. Research should focus on accelerating fundamental models or operators, rather than implementing additional processing steps that are less common but just easy to find ideas for.
 - ⚖️**Find a balance between industry needs and academic significance**: The value of a work should be demonstrated by combining real industry pain points and user needs with the research content, rather than broadly pursuing increasingly extreme so-called optimizations. At the same time, it is essential to distinguish between scientific and engineering problems. Academic research needs to be exploratory and groundbreaking, rather than being judged solely on whether it can be transformed directly into a product in the present moment, or being implemented by applying the thinking of product development.
 - ✍️**Emphasize the summary of fundamental theories**: Theories like the roofline model, abstraction hierarchy, and memory hierarchy are the source of new ideas. Research should not be approached in a fast-food style; instead, one should strive to truly understand the essence and limitations behind mainstream or non-mainstream approaches, thereby improving the quality of one's own ideas.
+
+At the same time, I deeply admire and advocate **Mr. Liang Shuming**'s discussion of [the eight levels of thinking](https://mp.weixin.qq.com/s/nyx6UTntwsyZiDoPaBNdHg).
+
+- **Level 1**: Forming Your Own Opinion (形成主见)
+- **Level 2**: Discovering Unexplainable Things (发现不能解释的事情)
+- **Level 3**: Achieving Integration and Mastery (融会贯通)
+- **Level 4**: Recognizing Your Own Limitations (知不足)
+- **Level 5**: Mastering Complexity through Simplicity (以简御繁)
+- **Level 6**: Applying Knowledge with Ease (运用自如)
+- **Level 7**: Gaining a Panoramic View (一览众山小)
+- **Level 8**: Achieving Thorough Clarity (通透)
+
+I also have my own summary of **research capabilities**, which I believe is important for the long-term development of a student.
+
+- **On the Primary Purpose of Graduate Studies**
+  - The primary goal of pursuing a master or Ph.D. degree is not merely to publish as many papers as possible, nor to make grand contributions to human progress. Rather, it is to cultivate the capability to identify, analyze, and solve problems. Papers and tangible outcomes are the "fish" (the product), not the "fishing" (the thinking, method, and spirit).
+- **The Three Pillars of Research Competence**
+  - **Knowledge and Skills**:
+    - Have you solidified your foundational knowledge? Can you properly and effectively write code? Are you proficient with software tools and experimental instruments? At the level of a practitioner, you must learn to **keep your hands dirty** — that is, to be willing to tackle tasks step by step and implement them with dedication.
+  - **Research Thinking**:
+    - **Domain-Specific Research Cognition**: 
+      - Do you possess a comprehensive and clear overall understanding of a particular field or industry?
+      - For your specific research area, are you familiar with the entire relevant knowledge system?
+      - Do you understand the major problems to be solved, the traditional approaches, the emerging methods, and your own approach (if any), as well as possible future directions?
+      - Can you work with clear motivation and logic, rather than busying yourself without clarity?
+    - **Universal Learning Capability**:
+      - Are you enable to quickly grasp the underlying logic of new subjects or domains?
+      - Can you efficiently "learn on the fly" and apply new knowledge promptly, rather than remaining at the stage of exam-oriented cramming, ineffective rote memorization, or working within artificially limited scopes? 
+  - **Information Expression**
+    - **Internal Communication with Colleagues**: As a team member, can you clearly communicate with collaborators about: what you have accomplished, what problems you have encountered, and what you need from them?
+    - **External Communication with Others**: As a leader, can you effectively convey the value of your project or proposal to others, thereby securing resources and opportunities for your team? As an author, can you present your work persuasively to peer reviewers, enabling them to approve your manuscript for publication?
 
 <span class='anchor' id='projects'></span>
 
