@@ -19,7 +19,7 @@ redirect_from:
 
 # 📖 Biography
 
-I'm currently a master student for Integrated Circuit Science and Technology in the School of Electronic and Computer Engineering, Peking University Shenzhen Graduate School, China, under the supervision of [Prof. Hailong Jiao](https://www.ece.pku.edu.cn/info/1045/2719.htm) at [VLSI-Lab](http://www.pku-vlsi.com/). I received the B.S. degree of Microelectronics Science and Technology in Hongyi Honor College, Wuhan University, China, in June 2025. My undergraduate advisor was [Prof. Sheng Chang](https://jszy.whu.edu.cn/changsheng/zh_CN/index.htm).
+I'm currently a master student for Integrated Circuit Science and Technology in the School of Electronic and Computer Engineering, Peking University Shenzhen Graduate School, China, under the supervision of [Prof. Hailong Jiao](https://www.ece.pku.edu.cn/info/1045/2719.htm) at [VLSI-Lab](http://www.pku-vlsi.com/). I received the B.S. degree of Microelectronics Science and Technology in Hongyi Honor College, Wuhan University, China, in June 2025, graduating with the highest GPA (3.97/4.00, Rank 1/25). My undergraduate advisor was [Prof. Sheng Chang](https://jszy.whu.edu.cn/changsheng/zh_CN/index.htm).
 
 <span class='anchor' id='research-tracks'></span>
 
@@ -32,11 +32,11 @@ My current research interests focus on **Efficient AI Chip and System**.
   - **Feature Extraction**: CNNs for classification, segmentation, and object detection (TCAD'24, TCAS-I'25, TC'25), and 3D visual perception networks based on point cloud.
   - **Multi-Sensor Fusion**: BEV-based approaches for fusing multi-view visual features in the autonomous driving scenario.
   - **Scene Representation**: Emerging 3D/4D representation forms like Gaussian Splatting.
-  - **Reasoning and Action-Making**: The co-processing of high-level reasoning and low-level action-making via emerging model architectures.
+  - **Reasoning and Action-Making**: The co-processing of high-level reasoning and low-level action-making based on emerging model architectures.
 - **Computing-in-Memory for Emerging Applications**
   - I am interested in the SRAM-based digital CIM design. I have made various review reports about SRAM CIM in my course projects. I advocate understanding the role of CIM in AI chips and systems from the perspectives of the abstraction hierarchy and memory hierarchy of computer systems.
 - **System Architecture and Design Automation for AI Deployment**
-  - I also making efforts on the system architecture and design automation for AI deployment, especially the design and mapping strategies for spatial dataflow architecture (TCAS-I'25). 
+  - I also make efforts on the system architecture and design automation for AI deployment, especially the design and mapping strategies for spatial dataflow architecture (TCAS-I'25). 
 - **Fundamental Optimization Theories for AI Chip and System**
   - I believe that the summarization of fundamental theories is the most important factor driving research progress. I am trying to make some contributions on review papers about fundamental theories.
 
