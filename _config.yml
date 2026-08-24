@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yuxian Jiang"
   avatar           : "images/author.jpg"
-  bio              : "Master student, School of Electronic and Computer Engineering, Peking University Shenzhen Graduate School."
+  bio              : # "Master student, School of Electronic and Computer Engineering, Peking University Shenzhen Graduate School."
   location         : "Shenzhen, China"
   employer         : "Peking University"
   pubmed           : 

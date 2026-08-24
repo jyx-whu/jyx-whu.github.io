@@ -21,5 +21,11 @@ main:
   - title: "Projects"
     url: "/#projects"
 
+  - title: "Skills"
+    url: "/#skills"
+
   - title: "Personal Hobbies"
     url: "/#personal-hobbies"
+
+  - title: "Contact"
+    url: "/#contact"

@@ -145,7 +145,7 @@ I also have my own summary of **research capabilities**, which I believe is impo
 
 ## Point Cloud Networks Accelerator \[Tape-Out May 2025\] --September 2024 to May 2025
 
-This work proposed a 2×3 mm^2 TSMC 28nm accelerator for point cloud understanding, leaded by Dr. Yanzhe Ma and Dr. Changchun Zhou. It is also the 2rd version of [Nebula](https://ieeexplore.ieee.org/document/10904703).
+This work proposed a $2 \times 3\ \mathrm{mm}^2$ TSMC 28nm accelerator for point cloud understanding, leaded by Dr. Yanzhe Ma and Dr. Changchun Zhou. It is also the 2rd version of [Nebula](https://ieeexplore.ieee.org/document/10904703).
 
 **Main Contributions**:
 
@@ -156,7 +156,7 @@ This work proposed a 2×3 mm^2 TSMC 28nm accelerator for point cloud understandi
 
 ## 4D Gaussian Splatting Accelerator \[Tape-Out May 2026\] --August 2025 to May 2026
 
-This work proposed a 2×2 mm^2 TSMC 28nm accelerator for [HAC](https://arxiv.org/abs/2403.14530)-style 4D Gaussian Splatting for dynamic scene rendering, leaded by master student Wei Luo.
+This work proposed a $2 \times 2\ \mathrm{mm}^2$ TSMC 28nm accelerator for [HAC](https://arxiv.org/abs/2403.14530)-style 4D Gaussian Splatting for dynamic scene rendering, leaded by master student Wei Luo.
 
 **Main Contributions**:
 
@@ -174,12 +174,29 @@ This work proposed a fully pipelined FPGA accelerator with an agile mapping fram
 2. Assistance in the implementation of a network-architecture-aware hardware resource estimation model based on our proposed dataflow. The model can directly generated hyper-parameters for hardware design based on user-defined performance requirement, network architecture, and target platform.
 3. Implementation of a series of RTL code templates for agile synthesis of accelerators. The templates are fully parameterized, supporting arbitary common specifications of network layers (convolution kernel size, feature map size, etc.) and most types of operators in CNN, including vanilla/depth-wise/point-wise convolution, max/avg pooling, unpooling, deconvolution, and dilated convolution.
 
+<span class='anchor' id='skills'></span>
+
+# 🛠️ Skills
+
+- **Coding Languages**: Verilog/SystemVerilog, Python, C/C++, MATLAB
+- **Develop Tools**: NCSim, Genus, Virtuoso, Vivado, Quartus, ModelSim, Verilator, Conda, Docker, Git, Visual Studio Code, Visual Studio, MobaXterm
+- **Productivity Tools**: Microsoft Office (Word, PowerPoint, Excel), Markdown, LaTeX, WPS Office
+- **Drawing Tools**: PowerPoint, Visio, Draw-io, Inkscape, Acrobat, Photoshop
+- **Agents**: Kimi, DeepSeek Harness, GitHub Copilot
+
 <span class='anchor' id='personal-hobbies'></span>
 
 # ⭐️ Personal Hobbies
 
 - 🏓**table tennis**: I am now a key member and vice-captain of the PKUSZ table tennis team. I was formerly the captain of the WHU Hongyi Honor College table tennis team. I play with a right-handed shake-hand grip (Butterfly Viscaria FL), using inverted rubbers on both sides of the blade (Forehand: DHS Hurricane 3, Backhand: Butterfly D09c). My primary scoring strategies are defense, rallies, and variations in rhythm.
-- 🎹**piano**: I have been learning piano since I was a child. I became very interested in ACG piano during high school and have practiced many [Animenz](https://space.bilibili.com/6075139)'s arrangements, such as [Unravel](https://www.bilibili.com/video/BV1px411A7ir/), [Bios (10th Anniversary Edition)](https://www.bilibili.com/video/BV1JP4y1G7ze), and [Sincerely](https://www.bilibili.com/video/BV1CK411J7fX), etc. I have also published some piano arrangements on [my bilibili account](https://www.bilibili.com/video/BV1gHAqzyEWv?vd_source=7920e780a5c945ddf1e66287bafc3e3f).
+- 🎹**piano**: I have been learning piano since I was a child. I became very interested in ACG piano during high school and have practiced many [Animenz](https://space.bilibili.com/6075139)'s arrangements, such as [Unravel](https://www.bilibili.com/video/BV1px411A7ir/), [Bios (10th Anniversary Edition)](https://www.bilibili.com/video/BV1JP4y1G7ze), and [Sincerely](https://www.bilibili.com/video/BV1CK411J7fX), etc. I also publish my piano arrangements on [my bilibili account](https://www.bilibili.com/video/BV1gHAqzyEWv?vd_source=7920e780a5c945ddf1e66287bafc3e3f).
 - 📜**Calligraphy**: During my childhood, I practiced calligraphy for many years under the guidance of [Mr. Lin Zhenhong](https://baike.baidu.com/item/%E6%9E%97%E6%8C%AF%E9%B8%BF/5308403). I mainly studied classic styles such as Mr. Yan Zhenqing's regular script and Mr. Wang Xizhi's running script, and created many calligraphy works.
 - ☯️**Chinese Kungfu**: I studied Chen-style Tai Chi for many years during my primary and secondary school years. I have also maintained a close interest in various kickboxing and Muay Thai competitions, such as [K-1](https://www.k-1.world/), Glory, [ONE Championship](https://www.onefc.com/cn/), and WLF (Wu Lin Feng), etc.
 - 🧐**Religious Philosophy and Chinese Culture**: My early years were steeped in the recitation of many traditional Chinese classics, such as the Analects, the Great Learning, the Doctrine of the Mean, and the Book of Changes. I also have an ongoing inquiry of Vedanta philosophy from India, the integral framework and evergreen philosophy of Ken Wilber, and the teachings of Krishnamurti.
+
+<span class='anchor' id='contact'></span>
+
+# 🏠 Contact
+
+- **Address**: Room 207, Building A, Peking University Shenzhen Graduate School, Nanshan District, Shenzhen, Guangdong, China
+- **Email**: [yxjiang25@stu.pku.edu.cn](mailto:yxjiang25@stu.pku.edu.cn)
