@@ -184,6 +184,13 @@ This work proposed a fully pipelined FPGA accelerator with an agile mapping fram
 - **Drawing Tools**: PowerPoint, Visio, Draw-io, Inkscape, Acrobat, Photoshop
 - **Agents**: Kimi, DeepSeek Harness, GitHub Copilot
 
+<span class='anchor' id='resources'></span>
+
+# 📚 Resources
+
+- **AI chip study and research notes**: This is a note collection that I wrote for the students who are in the same research group as me. It provides comprehensive contents about both the specific introduction of AI chip design and the general research methodology and learning methods, which may be helpful for the students who are new to the field of AI chip research. Contace me to obtain the password for access. [Link](https://rcn5earplkcw.feishu.cn/wiki/KbV1wmkFriyulzk5BbQcEBqcnHh?from=from_copylink)
+- **RTL reposity for basic AI chip components**: This is a module collection that includes various basic component which may be used as helpful sub-modules in AI chip design. [Link comming soon]
+
 <span class='anchor' id='personal-hobbies'></span>
 
 # ⭐️ Personal Hobbies
