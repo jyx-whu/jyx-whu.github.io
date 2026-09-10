@@ -28,10 +28,10 @@ I'm currently a master student for Integrated Circuit Science and Technology in 
 My current research interests focus on **Efficient AI Chip and System**.
 
 - **Accelerators for Energy Efficient Edge AI**
-  - I am currently dedicated to develop edge accelerators for the foundation models of Embodied/Physical AI, with specific scenarios like autonomous driving, robotics, etc. For a typical foundation model, I focus on the following aspects:
+  - I am currently dedicated to develop edge accelerators for the foundation models of Physical AI, with specific scenarios like autonomous driving, robotics, etc. For a typical foundation model, I focus on hardware acceleration of the following aspects:
   - **Feature Extraction**: CNNs for classification, segmentation, and object detection (TCAD'24, TCAS-I'25, TC'25), and 3D visual perception networks based on point cloud.
   - **Multi-Sensor Fusion**: BEV-based approaches for fusing multi-view visual features in the autonomous driving scenario.
-  - **Scene Representation**: Emerging 3D/4D representation forms like Gaussian Splatting.
+  - **Scene Representation**: Emerging 3D/4D representation forms such as Gaussian Splatting and generative video.
   - **Reasoning and Action-Making**: The co-processing of high-level reasoning and low-level action-making based on emerging model architectures.
 - **Computing-in-Memory for Emerging Applications**
   - I am interested in the SRAM-based digital CIM design. I have made various review reports about SRAM CIM in my course projects. I advocate understanding the role of CIM in AI chips and systems from the perspectives of the abstraction hierarchy and memory hierarchy of computer systems.
@@ -143,9 +143,9 @@ I also have my own summary of **research capabilities**, which I believe is impo
 
 # 🚀 Projects
 
-## Point Cloud Networks Accelerator \[Tape-Out May 2025\] --September 2024 to May 2025
+## Point Cloud Transformer Accelerator \[Tape-Out May 2025\] --September 2024 to May 2025
 
-This work proposed a $2 \times 3\ \mathrm{mm}^2$ TSMC 28nm accelerator for point cloud understanding, leaded by Dr. Yanzhe Ma and Dr. Changchun Zhou. It is also the 2rd version of [Nebula](https://ieeexplore.ieee.org/document/10904703).
+This work proposed a $2 \times 3\ \mathrm{mm}^2$ TSMC 28nm accelerator for transformer-based point cloud understanding, leaded by Dr. Yanzhe Ma and Dr. Changchun Zhou. It is also the 2rd version of [Nebula](https://ieeexplore.ieee.org/document/10904703).
 
 **Main Contributions**:
 
@@ -154,13 +154,13 @@ This work proposed a $2 \times 3\ \mathrm{mm}^2$ TSMC 28nm accelerator for point
 3. Assistance in the implementation of the on-chip AXI crossbar, fast point sampling (FPS) unit, and the byte-enable-supported global buffer.
 4. Verification of a embedded RISC-V core which is for write/read the on-chip config regfile through software.
 
-## 4D Gaussian Splatting Accelerator \[Tape-Out May 2026\] --August 2025 to May 2026
+## Video Codec 4D Gaussian Splatting Accelerator \[Tape-Out May 2026\] --August 2025 to May 2026
 
-This work proposed a $2 \times 2\ \mathrm{mm}^2$ TSMC 28nm accelerator for [HAC](https://arxiv.org/abs/2403.14530)-style 4D Gaussian Splatting for dynamic scene rendering, leaded by master student Wei Luo.
+This work proposed a $2 \times 2\ \mathrm{mm}^2$ TSMC 28nm accelerator for [i3DV](https://ieeexplore.ieee.org/document/11493519)/[HAC](https://arxiv.org/abs/2403.14530)-style Video Codec 4D Gaussian Splatting (VC-4DGS) to enable streaming decoding-to-rendering in mobile devices, leaded by master student Wei Luo.
 
 **Main Contributions**:
 
-1. Implementation of a multi-resolution binary hash interpolation unit. This unit supports tri-linear interpolation based on multi-resolution binary hash table, which is used in HAC for video feature decoding.
+1. Implementation of a multi-resolution binary hash interpolation unit. This unit supports tri-linear interpolation based on multi-resolution binary hash grid, which is used for scene feature decoding of I-frame and P-frame. The output of this unit, i.e. scene context, serves as the basic of subsequent entropy decoding and MLP.
 2. Implementation of a gaussian preprocess unit. This unit supports complete functions for converting 3D gaussian properties (3D covariance matrix and spatial coordinate mainly) to 2D splatted gaussian properties (2D covariance matrix and pixel scale coordinate). The conversions involve linear transformations based on view-transformation matrix and projection matrix, quadratic-form-style covariance splatting based on Jacobi matrix, generation of the inverse matrix based on determinant, and other vector operations or scalar operations. The fixed point and micro-scaling INT (MXINT) style data formats are supported to maintain the accuracy.
 3. Implementation of a frustum culling unit. This unit introduces NeRF-style ray sampling method into Gaussian Splatting for redundancy-check-free voxel-wise frustum culling.
 
