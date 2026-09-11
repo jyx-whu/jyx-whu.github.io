@@ -24,9 +24,6 @@ main:
   - title: "Skills"
     url: "/#skills"
 
-  - title: "Resources"
-    url: "/#resources"
-
   - title: "Personal Hobbies"
     url: "/#personal-hobbies"
 
