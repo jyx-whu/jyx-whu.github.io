@@ -34,7 +34,7 @@ My current research interests focus on **Efficient AI Chip and System**.
   - **Scene Representation**: Emerging 3D/4D representation forms such as Gaussian Splatting and generative video.
   - **Reasoning and Action-Making**: The co-processing of high-level reasoning and low-level action-making based on emerging model architectures.
 - **Computing-in-Memory for Emerging Applications**
-  - I am interested in the SRAM-based digital CIM design. I have made various review reports about SRAM CIM in my course projects. I advocate understanding the role of CIM in AI chips and systems from the perspectives of the abstraction hierarchy and memory hierarchy of computer systems.
+  - I am interested in the SRAM-based digital CIM design. I have made various review reports about SRAM CIM in my course projects, in which I advocate understanding the role of CIM in AI chips and systems from the perspectives of the abstraction hierarchy and memory hierarchy of computer systems.
 - **System Architecture and Design Automation for AI Deployment**
   - I also make efforts on the system architecture and design automation for AI deployment, especially the design and mapping strategies for spatial dataflow architecture (TCAS-I'25). 
 - **Fundamental Optimization Theories for AI Chip and System**
